@@ -30,11 +30,11 @@ router.get("/success", (req, res) => {
   //If the user exists, redirect to the main site with user info to store as a cookie on the front - end and will pick user signed-in
   if (req.user && req.user.profileID) {
     let obj2params = serialize(req.user);
-    res.redirect(`https://phillipchang.github.io/venvi-fe/?${obj2params}`);  
+    res.redirect(`https://esarnb.github.io/venvi-fe/?${obj2params}`);  
   }
   //If the user DNE, redirect to home which will pick user signed-out
   else {
-    res.redirect(`https://phillipchang.github.io/venvi-fe/failure`);  
+    res.redirect(`https://esarnb.github.io/venvi-fe/failure`);  
   }
 })
 
