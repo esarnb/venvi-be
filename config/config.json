@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": "password",
-    "database": "venvi",
+    "username": "venvi-user",
+    "password": "venvi-pass",
+    "database": "venvi_db",
     "host": "localhost",
     "port": 3306,
     "dialect": "mysql"
@@ -20,3 +20,4 @@
     "dialect": "mysql"
   }
 }
+
